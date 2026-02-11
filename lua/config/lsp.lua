@@ -18,6 +18,7 @@ require("mason").setup()
 
 require("mason-lspconfig").setup({
   ensure_installed = {
+    "gopls",
     "pyright",
     "rust_analyzer",
     "ts_ls",
