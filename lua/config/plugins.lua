@@ -1,5 +1,5 @@
  -- Theme
-vim.cmd("colorscheme tokyonight")
+vim.cmd("colorscheme vim")
 
 -- Lualine
 require("lualine").setup({

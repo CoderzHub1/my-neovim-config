@@ -23,6 +23,7 @@ require("mason-lspconfig").setup({
     "rust_analyzer",
     "ts_ls",
     "lua_ls",
+    "clangd",
   },
 })
 
@@ -61,6 +62,7 @@ vim.lsp.enable({
   "rust_analyzer",
   "ts_ls",
   "lua_ls",
+  "clangd",
 })
 
 
