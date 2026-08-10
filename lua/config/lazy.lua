@@ -21,6 +21,10 @@ require("lazy").setup({
   -- Theme
   { "folke/tokyonight.nvim" },
 
+  {"catppuccin/nvim"},
+
+  {"projekt0n/github-nvim-theme"},
+
   -- Statusline
   { "nvim-lualine/lualine.nvim" },
 

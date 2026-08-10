@@ -1,17 +1,16 @@
 -- Diagnostics UI
 vim.diagnostic.config({
-  virtual_text = true,       -- inline text
-  signs = true,              -- gutter icons
-  underline = true,          -- underline errors
-  update_in_insert = false,  -- don't update while typing
+  virtual_text = false,  -- don't show the message inline
+  signs = true,           -- keep the warning/error icon
+  underline = true,       -- keep the underline
+  update_in_insert = false,
   severity_sort = true,
+
   float = {
     border = "rounded",
     source = "always",
   },
 })
-
-
 
 -- Mason
 require("mason").setup()
